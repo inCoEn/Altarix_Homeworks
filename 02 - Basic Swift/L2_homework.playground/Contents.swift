@@ -169,6 +169,7 @@ computer?.employee = employee
 class Counter {
     var value = 0
     lazy var increase = {
+        [unowned self] in
         self.value += 1
     }
 }
