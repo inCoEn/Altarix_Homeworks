@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var citiesTable: UITableView!
     
-    let contentDataArray: Array<City> = [City(cityName: "Москва", cityArea: 2561.5, cityPopulation: 12615279, cityFoundation: 1147), City(cityName: "Санкт-Петербург", cityArea: 1439, cityPopulation: 5383890, cityFoundation: 1703), City(cityName: "Казань", cityArea: 425.3, cityPopulation: 1251969, cityFoundation: 1005), City(cityName: "Самара", cityArea: 541.4, cityPopulation: 1156644, cityFoundation: 1586), City(cityName: "Тольятти", cityArea: 314.78, cityPopulation: 707408, cityFoundation: 1737), City(cityName: "Сызрань", cityArea: 117, cityPopulation: 173260, cityFoundation: 1683), City(cityName: "Новокуйбышевск", cityArea: 86, cityPopulation: 102933, cityFoundation: 1946)]
+    let contentDataArray: Array<City> = [City(cityName: "Самара", cityArea: 541.4, cityPopulation: 1156644, cityFoundation: 1586), City(cityName: "Жигулевск", cityArea: 60.8, cityPopulation: 54343, cityFoundation: 1949), City(cityName: "Новокуйбышевск", cityArea: 86, cityPopulation: 102933, cityFoundation: 1946), City(cityName: "Отрадный", cityArea: 53.6, cityPopulation: 47542, cityFoundation: 1946), City(cityName: "Тольятти", cityArea: 314.78, cityPopulation: 707408, cityFoundation: 1737), City(cityName: "Сызрань", cityArea: 117, cityPopulation: 173260, cityFoundation: 1683), City(cityName: "Чапаевск", cityArea: 187.49, cityPopulation: 72944, cityFoundation: 1927)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
