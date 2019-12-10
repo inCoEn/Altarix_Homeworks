@@ -9,4 +9,8 @@ enum HttpErrorCodes: Int {
     case resetContent = 205
     case partialContent = 206
     case multiStatus = 207
+    
+    var errorDescription: String {
+        return "\(self.rawValue) - \(self)"
+    }
 }
